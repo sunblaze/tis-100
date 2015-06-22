@@ -1,0 +1,46 @@
+@0
+## LEAST NODES
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 17,ACC
+NEW_LINE:SAV
+MOV 30,ACC
+LOOP:SUB 1
+MOV ACC,DOWN
+SWP
+MOV ACC,DOWN
+MOV 3,DOWN
+MOV -1,DOWN
+SWP
+JGZ LOOP
+SWP
+SUB 1
+JMP NEW_LINE
+
+@10
+# X IN ACC AT LOOP
+# Y IN BAC AT LOOP
